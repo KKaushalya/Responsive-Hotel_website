@@ -1,0 +1,361 @@
+/*Reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Main styling*/
+html,body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 1.7em;
+}
+ 
+a{
+    text-decoration: none;
+    color: darkslategrey;
+}
+
+h1,h2,h3{
+    padding-bottom: 20px;
+}
+
+p{
+    margin: 10px 0;
+}
+
+.container{
+    margin: auto;
+    max-width: 1375px;
+    overflow: auto;
+    padding: 0 20px;
+}
+/* navbar */
+
+#navbar{
+    background-color: #ff69b4;
+    overflow: auto;
+    color: whitesmoke;
+}
+
+#navbar a{
+    color: white;
+}
+
+#navbar h1{
+    float: left;
+    padding: 20px;
+    font-style: italic;
+}
+
+#navbar ul{
+    list-style: none;
+    float: right;
+}
+
+#navbar ul li{
+    float: left;
+}
+
+#navbar li a{
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+
+#navbar li a:hover,#navbar li a current{
+    background-color:#00bfff;
+    color:white;
+}
+
+ /*showcase*/
+ #showcase{
+    background:url('../img/round-metal-patio-near-railings-at-night-1638341.jpg') no-repeat center/100% 100%;
+     height: 500px;
+     width: 100%;
+ }
+
+.showcase-content{
+    color:#ff69b4;
+    text-align: center;
+    padding-top: 130px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+.showcase-content h1{
+    font-size: 65px;
+    line-height: 1.2;
+}
+
+.text-primary{
+    color: #00bfff; 
+}
+
+.text-primary:hover{
+    color: white;
+}
+
+.lead{
+    font-size: 20px;
+    color:#ff69b4;
+}
+
+.lead:hover{
+    color:linen;
+}
+
+.showcase-content p{
+    padding-bottom: 20px;
+    line-height: 1.7em;
+}
+
+.btn{
+    display: inline-block;
+    font-size: 18px;
+    color:#00bfff;
+    padding: 13px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: lightskyblue;
+    color:white;
+}
+
+.btn-light{
+    color: #00bfff;
+    background: white;
+}
+
+#home-info{
+    height: 450px;
+}
+
+#home-info .info-img{
+    float: left;
+    width: 50%;
+    background: url('../img/pool.jpeg') no-repeat;
+    height: 100%;
+    background-size: cover;
+    border: #00bfff 1px solid;
+}
+
+#home-info .info-content{
+    float: right;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    padding: 50px 30px;
+    overflow: hidden;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: black;
+}
+
+
+#home-info .info-content p{
+    padding-bottom: 30px;
+}
+.bg-dark{
+    background-color:#ff69b4;
+    font-size: 18px;
+    border:#ff69b4 1px solid;
+    border-radius: 15px;
+}
+
+
+/* features */
+.box{
+    float: left;
+    width: 33.3%;
+    padding: 50px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 18px;
+}
+
+.bg-primary{
+    background-color: #00bfff;
+    border: #00bfff 1px solid;
+    border-radius: 15px;
+    color: linen;
+}
+
+.bg-primary i{
+    color: #ff69b4;
+}
+
+
+.bg-light{
+    color: black;
+    background-color: white;
+}
+
+.bg-light i{
+    color: #00bfff;
+}
+
+
+.clr{
+    clear: both;
+}
+
+.box i{
+    margin-bottom: 10px;
+}
+
+/* about info */
+#about-info .info-right{
+    float: right;
+    width: 50%;
+    min-height: 100%;
+}
+
+#about-info .info-right img{
+    display: block;
+    margin: auto;
+    width: 80%;
+    border-radius: 50%;
+}
+
+#about-info .info-left{
+    float: left;
+    width: 50%;
+    min-height: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 18px;
+
+}
+
+#about-info .info-left h1{
+    font-size: 40px;
+    line-height: 1.2;
+}
+
+#about-info .info-left .text-primary1{
+    color: #00bfff;
+}
+
+#about-info .info-left span{
+     color: #ff69b4;
+}
+
+.py-1{ padding: 10px 0;}
+.py-2{ padding: 20px 0;}
+.py-3{ padding: 30px 0;}
+
+#testimonials{
+    height: 100%;
+    background: url('../img/white-sofas-inside-building-2507010.jpg') no-repeat center center/cover;
+    padding-top: 60px;
+}
+
+#testimonials h2{
+    color: white;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 40px;
+    text-align: center;
+    padding-bottom:30px ;
+}
+
+#testimonials h2:hover{
+    color: #ff69b4;
+}
+
+#testimonials .testimonial{
+    padding: 20px;
+    margin-bottom: 100px;
+    opacity: 0.9;
+}
+
+.testimonial p{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 18px;
+    text-align: justify;
+}
+
+#testimonials img{
+    width: 100px;
+    float: left;
+    padding-bottom: 20px;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+/* contact */
+#contact-form .form-group{
+    margin-bottom: 20px;
+}
+
+.form-group label{
+    display: block;
+}
+
+#contact-form input,#contact-form textarea{
+    width: 100%;
+    padding: 10px;
+    border: lightgrey 1px solid;
+}
+
+#contact-form textarea{
+    height: 200px;
+}
+
+#contact-form input:focus,#contact-form textarea:focus{
+    outline: none;
+    border-color: #00bfff;
+}
+
+#contact-form{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 19px;
+}
+
+#contact-form h1{
+    font-size: 40px;
+}
+
+#contact-form .text-primary1{
+    color: #00bfff;
+}
+
+.btn2{
+    background-color: #00bfff;
+    color: black;
+    padding: 13px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 19px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+.btn2:hover{
+    background: lightskyblue;
+}
+
+.bg-dark1{
+    background-color:#ff69b4;
+    font-size: 18px;
+    border:#ff69b4 1px solid;
+}
+
+#main-footer{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: lightpink;
+    color: white;
+    padding:  10px;
+    font-size: 18px;
+    font-style: italic;
+}
+
+

@@ -1,0 +1,74 @@
+#navbar h1{
+    float: none;
+    text-align: center;
+    font-style: italic;
+}
+
+#navbar ul, #navbar ul li{
+    float: none;
+}
+
+#navbar li a{
+    padding: 5px;
+    border-bottom: 1px dotted #ffc0cb;
+}
+
+#showcase{
+    height: 100%;
+}
+
+.showcase-content{
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+
+#home-info{
+    height: 600px;
+}
+
+#home-info .info-img{
+    display: none;
+}
+
+#home-info .info-content{
+    float: none;
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: black;
+}
+
+.box{
+    float: none;
+    width: 100%;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 18px;
+}
+
+#about-info .info-right{
+    float: none;
+    width: 100%;
+    margin-top: 30px;
+}
+
+#about-info .info-left{
+    float: none;
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 18px;
+}
+
+#testimonials h2{
+    line-height: 1.2;
+}
+
+#contact-info .box{
+    border-bottom: 1px dotted #ffc0cb;
+}
+
+#contact-info .box :last-child{
+     border-bottom: none;
+}
